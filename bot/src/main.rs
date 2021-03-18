@@ -56,7 +56,7 @@ fn get_args() -> Args {
             Arg::new("reminder_time")
                 .long("reminder_time")
                 .short('t')
-                .about("How far in advance you want to be reminded")
+                .about("How many seconds in advance you want to be reminded (Default 60s)")
                 .takes_value(true),
         )
         .get_matches();
