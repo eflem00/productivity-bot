@@ -105,7 +105,7 @@ fn poll_events(
             "Meeting Reminder",
             event.summary.as_str(),
             wintoast::Duration::Short,
-            wintoast::Sound::None,
+            wintoast::Sound::Default,
         );
         wintoast::show(&toast).unwrap_or_else(|err| {
             eprintln!("Err generating toast {}", err);
