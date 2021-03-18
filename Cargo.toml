@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "wintoast",
+    "bot",
+    "gcal"
+]

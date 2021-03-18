@@ -1,0 +1,11 @@
+[package]
+name = "wintoast"
+version = "0.1.0"
+authors = ["Evan Fleming <evan.gordon.fleming@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+windows = "0.3.1"
+
+[build-dependencies]
+windows = "0.3.1"

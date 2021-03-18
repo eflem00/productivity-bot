@@ -1,0 +1,11 @@
+[package]
+name = "bot"
+version = "0.1.0"
+authors = ["Evan Fleming <evan.gordon.fleming@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+wintoast = { path = "../wintoast" }
+gcal = { path = "../gcal" }
+chrono = "0.4"
+clap = "3.0.0-beta.2"
